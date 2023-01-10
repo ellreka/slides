@@ -25,6 +25,8 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm build
+      - name: Generate index.html
+        run: scripts/generate-index.sh
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
