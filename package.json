@@ -1,0 +1,20 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "./scripts/dev.sh",
+    "build": "rimraf dist && pnpm -r --filter=./presentations/** run build",
+    "export": "pnpm -r --filter=./presentations/** run export"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.34.3",
+    "@slidev/theme-apple-basic": "^0.20.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.24.2",
+    "rimraf": "^3.0.2",
+    "slidev-theme-eloc": "^1.0.1",
+    "slidev-theme-geist": "^0.8.1"
+  }
+}
