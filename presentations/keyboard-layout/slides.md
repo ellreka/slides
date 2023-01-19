@@ -12,6 +12,12 @@ fonts:
 <p class="absolute bottom-10 right-10 text-lg">s.tanigome</p>
 
 ---
+
+## 趣旨
+
+<p class="text-3xl font-bold mt-30">キーボードに興味を持ってほしい</p>
+
+---
 layout: center
 ---
 
@@ -21,7 +27,10 @@ layout: center
 
 ## QWERTY配列
 
+<div class="relative">
 <img src="https://gyazo.com/f77ca4344999cc4f675a361c77452342.png" />
+<span v-click class="border-red-500 absolute top-13 left-20 border-5 w-380px h-18"></span>
+</div>
 
 ---
 layout: center
@@ -44,15 +53,19 @@ layout: center
 <a href="https://ja.wikipedia.org/wiki/QWERTY">wikipediaより引用</a>
 </div>
 
-<p class="text-2xl mt-10 font-bold">→使いやすさを考えて作られたものではなさそう...</p>
+<p v-click class="text-2xl mt-10 font-bold">→使いやすさを考えて作られたものではなさそう...</p>
 
 ---
 layout: center
 ---
 
-## 普及率ほぼ100%
+## 使用率ほぼ100%
 
-<img src="https://gyazo.com/b8f67eb5a41b928172783cd25ef38fb9.png" class="w-1/3 mx-auto" />
+---
+layout: center
+---
+
+## もっと良い配列、あります
 
 ---
 
@@ -61,7 +74,10 @@ layout: center
 - 左手に母音が固まっている
 - 左右交互に指を動かすので、速く打てて疲れにくい
 
+<div class="relative">
 <img src="https://gyazo.com/269a2fe0289279bd57d68f20fb39a5da.png" />
+<span v-click class="border-red-500 absolute top-28 left-20 border-5 w-320px h-18"></span>
+</div>
 
 ---
 
@@ -103,7 +119,7 @@ layout: center
 layout: center
 ---
 
-## 実際どうなの？
+## 実際変更すべきなの？
 
 ---
 
@@ -114,6 +130,7 @@ layout: center
 - 仕事しながらは無理
 - QWERTY配列が使えなくなる
 - 自分以外のPCを触れなくなる
+- PCゲーム(WASD移動)が出来なくなる
 
 など...デメリットがたくさん
 
@@ -131,7 +148,7 @@ layout: center
 
 ### Let's Try Keyboard Layouts!
 
-https://lets-try-keyboard-layouts-ellreka.vercel.app/
+https://lets-try-keyboard-layouts.ellreka.net/
 
 紹介記事
 
