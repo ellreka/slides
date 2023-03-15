@@ -5,7 +5,7 @@ case "$1" in
     slidev build --base /slides/$(basename $PWD)/ --out ../../dist/$(basename $PWD)
     ;;
   export)
-    slidev export --output ./$(basename $PWD).pdf --dark
+    slidev export --dark --output ./$(basename $PWD).pdf
     ;;
   *)
     ;;
